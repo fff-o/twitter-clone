@@ -1,0 +1,30 @@
+.timeline{
+  overflow-y: scroll;
+  flex: 0.45;
+  min-width: 250px;
+  height: 1280px;
+  padding-right: 10px;
+  border-right: 1px solid var(--twitter-background);
+}
+
+.timeline::-webkit-scrollbar{
+  display: none;
+}
+
+.timeline-header{
+  /* stickyはその場にとどまるよ、という動き */
+  position: sticky;
+  top: 0;
+  background-color: white;
+  /* z-indexは重ね合わせたときの順番
+      1番上に来てほしいから100 */
+  z-index: 100;
+  border: 1px solid var(--twitter-background);
+  padding: 0px 20px;
+}
+
+.timeline-header > h2{
+  font-size: 20px;
+  /* font-weightは文字の太さ */
+  font-weight: 800;
+}

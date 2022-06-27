@@ -1,0 +1,9 @@
+.router{
+  flex: 0.45;
+  min-width: 250px;
+  height: 1280px;
+  padding-right: 10px;
+  border-right: 1px solid var(--twitter-background);
+  font-size: 60px;
+  color: var(--twitter-color);
+}
